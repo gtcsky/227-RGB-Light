@@ -1,0 +1,497 @@
+Dependencies for Project 'Empty Project', Target 'pca_8bit_pwm_Release': (DO NOT MODIFY !)
+F (.\startup_hc32l136.s)(0x5BACC3BC)(--cpu Cortex-M0+ --li -g --apcs=interwork -I.\RTE\_pca_8bit_pwm_Release-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include--pd "__UVISION_VERSION SETA 528" --pd "_RTE_ SETA 1" --pd "ARMCM0P SETA 1"-o .\output\release\startup_hc32l136.o --depend .\output\release\startup_hc32l136.d)
+F (..\mcu\common\system_hc32l136.c)(0x5B849879)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\source\inc-I.\RTE\_pca_8bit_pwm_Release-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\output\release\system_hc32l136.o --omf_browse .\output\release\system_hc32l136.crf --depend .\output\release\system_hc32l136.d)
+I (..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\mcu\common\hc32l136.h)(0x5DA12377)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\driver\inc\ddl.h)(0x5B849877)
+I (..\source\inc\ddl_device.h)(0x5CD9314C)
+I (..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+F (..\source\src\main.c)(0x5DA1921B)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\source\inc-I.\RTE\_pca_8bit_pwm_Release-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\output\release\main.o --omf_browse .\output\release\main.crf --depend .\output\release\main.d)
+I (..\driver\inc\lpm.h)(0x5B289C94)
+I (..\driver\inc\ddl.h)(0x5B849877)
+I (..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\mcu\common\hc32l136.h)(0x5DA12377)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\inc\ddl_device.h)(0x5CD9314C)
+I (..\driver\inc\gpio.h)(0x5B9797C9)
+I (..\source\inc\user_pca.h)(0x5D8DB7A5)
+I (..\source\inc\const.h)(0x5DA3E147)
+I (..\driver\inc\pca.h)(0x5D8DAEA6)
+I (..\source\inc\user_sysctrl.h)(0x5D8D6FD6)
+I (..\source\inc\user_color.h)(0x5D8DB9AF)
+I (..\source\inc\io_define.h)(0x5D9FE282)
+I (..\driver\inc\adc.h)(0x5D8F1DAB)
+I (..\source\inc\user_lptimer.h)(0x5D8DE1BD)
+I (..\driver\inc\lpt.h)(0x5B849877)
+I (..\source\inc\user_menu.h)(0x5DA192AE)
+I (..\source\inc\user_key.h)(0x5D8DE121)
+I (..\source\inc\user_exti.h)(0x5D8EF8ED)
+I (..\source\inc\user_adc.h)(0x5D9EC29A)
+I (..\source\inc\user_spi.h)(0x5D9FD5D3)
+I (..\driver\inc\spi.h)(0x5B849878)
+I (..\source\inc\user_lcd.h)(0x5DA3E5BF)
+F (..\source\src\user_pca.c)(0x5D8DEBBC)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\source\inc-I.\RTE\_pca_8bit_pwm_Release-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\output\release\user_pca.o --omf_browse .\output\release\user_pca.crf --depend .\output\release\user_pca.d)
+I (..\source\inc\user_pca.h)(0x5D8DB7A5)
+I (..\source\inc\const.h)(0x5DA3E147)
+I (..\driver\inc\gpio.h)(0x5B9797C9)
+I (..\driver\inc\ddl.h)(0x5B849877)
+I (..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\mcu\common\hc32l136.h)(0x5DA12377)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\inc\ddl_device.h)(0x5CD9314C)
+I (..\driver\inc\pca.h)(0x5D8DAEA6)
+I (..\source\inc\io_define.h)(0x5D9FE282)
+I (..\driver\inc\adc.h)(0x5D8F1DAB)
+I (..\driver\inc\lpm.h)(0x5B289C94)
+F (..\source\src\user_sysctrl.c)(0x5D9EDDB4)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\source\inc-I.\RTE\_pca_8bit_pwm_Release-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\output\release\user_sysctrl.o --omf_browse .\output\release\user_sysctrl.crf --depend .\output\release\user_sysctrl.d)
+I (..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\driver\inc\ddl.h)(0x5B849877)
+I (..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\mcu\common\hc32l136.h)(0x5DA12377)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\source\inc\ddl_device.h)(0x5CD9314C)
+I (..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\driver\inc\gpio.h)(0x5B9797C9)
+I (..\driver\inc\flash.h)(0x5B289C94)
+I (..\source\inc\user_sysctrl.h)(0x5D8D6FD6)
+I (..\source\inc\const.h)(0x5DA3E147)
+F (..\source\src\user_color.c)(0x5D8DB7AA)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\source\inc-I.\RTE\_pca_8bit_pwm_Release-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\output\release\user_color.o --omf_browse .\output\release\user_color.crf --depend .\output\release\user_color.d)
+I (..\source\inc\user_color.h)(0x5D8DB9AF)
+I (..\source\inc\const.h)(0x5DA3E147)
+I (..\driver\inc\gpio.h)(0x5B9797C9)
+I (..\driver\inc\ddl.h)(0x5B849877)
+I (..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\mcu\common\hc32l136.h)(0x5DA12377)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\inc\ddl_device.h)(0x5CD9314C)
+I (..\source\inc\io_define.h)(0x5D9FE282)
+I (..\driver\inc\adc.h)(0x5D8F1DAB)
+I (..\source\inc\user_pca.h)(0x5D8DB7A5)
+I (..\driver\inc\pca.h)(0x5D8DAEA6)
+F (..\source\src\user_lptimer.c)(0x5D8ED325)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\source\inc-I.\RTE\_pca_8bit_pwm_Release-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\output\release\user_lptimer.o --omf_browse .\output\release\user_lptimer.crf --depend .\output\release\user_lptimer.d)
+I (..\driver\inc\ddl.h)(0x5B849877)
+I (..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\mcu\common\hc32l136.h)(0x5DA12377)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\inc\ddl_device.h)(0x5CD9314C)
+I (..\driver\inc\lpm.h)(0x5B289C94)
+I (..\driver\inc\gpio.h)(0x5B9797C9)
+I (..\source\inc\io_define.h)(0x5D9FE282)
+I (..\source\inc\const.h)(0x5DA3E147)
+I (..\driver\inc\adc.h)(0x5D8F1DAB)
+I (..\source\inc\user_lptimer.h)(0x5D8DE1BD)
+I (..\driver\inc\lpt.h)(0x5B849877)
+F (..\source\src\user_key.c)(0x5D8DE0B6)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\source\inc-I.\RTE\_pca_8bit_pwm_Release-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\output\release\user_key.o --omf_browse .\output\release\user_key.crf --depend .\output\release\user_key.d)
+I (..\source\inc\user_key.h)(0x5D8DE121)
+I (..\source\inc\const.h)(0x5DA3E147)
+I (..\driver\inc\gpio.h)(0x5B9797C9)
+I (..\driver\inc\ddl.h)(0x5B849877)
+I (..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\mcu\common\hc32l136.h)(0x5DA12377)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\inc\ddl_device.h)(0x5CD9314C)
+I (..\source\inc\user_menu.h)(0x5DA192AE)
+I (..\source\inc\user_lptimer.h)(0x5D8DE1BD)
+I (..\source\inc\io_define.h)(0x5D9FE282)
+I (..\driver\inc\adc.h)(0x5D8F1DAB)
+I (..\driver\inc\lpt.h)(0x5B849877)
+F (..\source\src\user_menu.c)(0x5DA3E632)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\source\inc-I.\RTE\_pca_8bit_pwm_Release-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\output\release\user_menu.o --omf_browse .\output\release\user_menu.crf --depend .\output\release\user_menu.d)
+I (..\source\inc\io_define.h)(0x5D9FE282)
+I (..\source\inc\const.h)(0x5DA3E147)
+I (..\driver\inc\gpio.h)(0x5B9797C9)
+I (..\driver\inc\ddl.h)(0x5B849877)
+I (..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\mcu\common\hc32l136.h)(0x5DA12377)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\inc\ddl_device.h)(0x5CD9314C)
+I (..\driver\inc\adc.h)(0x5D8F1DAB)
+I (..\source\inc\user_menu.h)(0x5DA192AE)
+I (..\source\inc\user_key.h)(0x5D8DE121)
+I (..\source\inc\user_lptimer.h)(0x5D8DE1BD)
+I (..\driver\inc\lpt.h)(0x5B849877)
+I (..\source\inc\user_adc.h)(0x5D9EC29A)
+I (..\source\inc\user_color.h)(0x5D8DB9AF)
+I (..\source\inc\user_lcd.h)(0x5DA3E5BF)
+I (..\source\inc\user_spi.h)(0x5D9FD5D3)
+I (..\driver\inc\spi.h)(0x5B849878)
+F (..\source\src\user_exti.c)(0x5D8F07DE)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\source\inc-I.\RTE\_pca_8bit_pwm_Release-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\output\release\user_exti.o --omf_browse .\output\release\user_exti.crf --depend .\output\release\user_exti.d)
+I (..\source\inc\user_exti.h)(0x5D8EF8ED)
+I (..\source\inc\const.h)(0x5DA3E147)
+I (..\driver\inc\gpio.h)(0x5B9797C9)
+I (..\driver\inc\ddl.h)(0x5B849877)
+I (..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\mcu\common\hc32l136.h)(0x5DA12377)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\inc\ddl_device.h)(0x5CD9314C)
+I (..\source\inc\user_key.h)(0x5D8DE121)
+I (..\source\inc\user_menu.h)(0x5DA192AE)
+I (..\source\inc\io_define.h)(0x5D9FE282)
+I (..\driver\inc\adc.h)(0x5D8F1DAB)
+F (..\source\src\user_adc.c)(0x5D9F0D87)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\source\inc-I.\RTE\_pca_8bit_pwm_Release-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\output\release\user_adc.o --omf_browse .\output\release\user_adc.crf --depend .\output\release\user_adc.d)
+I (..\source\inc\user_adc.h)(0x5D9EC29A)
+I (..\source\inc\const.h)(0x5DA3E147)
+I (..\driver\inc\gpio.h)(0x5B9797C9)
+I (..\driver\inc\ddl.h)(0x5B849877)
+I (..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\mcu\common\hc32l136.h)(0x5DA12377)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\inc\ddl_device.h)(0x5CD9314C)
+I (..\driver\inc\adc.h)(0x5D8F1DAB)
+I (..\source\inc\user_menu.h)(0x5DA192AE)
+I (..\source\inc\io_define.h)(0x5D9FE282)
+I (..\driver\inc\bgr.h)(0x5B289C94)
+F (..\source\src\user_spi.c)(0x5DA14623)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\source\inc-I.\RTE\_pca_8bit_pwm_Release-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\output\release\user_spi.o --omf_browse .\output\release\user_spi.crf --depend .\output\release\user_spi.d)
+I (..\source\inc\user_spi.h)(0x5D9FD5D3)
+I (..\source\inc\const.h)(0x5DA3E147)
+I (..\driver\inc\gpio.h)(0x5B9797C9)
+I (..\driver\inc\ddl.h)(0x5B849877)
+I (..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\mcu\common\hc32l136.h)(0x5DA12377)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\inc\ddl_device.h)(0x5CD9314C)
+I (..\driver\inc\spi.h)(0x5B849878)
+I (..\source\inc\io_define.h)(0x5D9FE282)
+I (..\driver\inc\adc.h)(0x5D8F1DAB)
+F (..\source\src\user_lcd.c)(0x5DA3E615)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\source\inc-I.\RTE\_pca_8bit_pwm_Release-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\output\release\user_lcd.o --omf_browse .\output\release\user_lcd.crf --depend .\output\release\user_lcd.d)
+I (..\source\inc\user_lcd.h)(0x5DA3E5BF)
+I (..\source\inc\const.h)(0x5DA3E147)
+I (..\driver\inc\gpio.h)(0x5B9797C9)
+I (..\driver\inc\ddl.h)(0x5B849877)
+I (..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\mcu\common\hc32l136.h)(0x5DA12377)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\inc\ddl_device.h)(0x5CD9314C)
+I (..\source\inc\io_define.h)(0x5D9FE282)
+I (..\driver\inc\adc.h)(0x5D8F1DAB)
+I (..\source\inc\user_spi.h)(0x5D9FD5D3)
+I (..\driver\inc\spi.h)(0x5B849878)
+I (..\source\inc\user_lptimer.h)(0x5D8DE1BD)
+I (..\driver\inc\lpt.h)(0x5B849877)
+I (..\source\inc\user_character.h)(0x5DA3E030)
+I (..\source\inc\user_menu.h)(0x5DA192AE)
+F (..\driver\src\ddl.c)(0x5B99D127)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\source\inc-I.\RTE\_pca_8bit_pwm_Release-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\output\release\ddl.o --omf_browse .\output\release\ddl.crf --depend .\output\release\ddl.d)
+I (..\driver\inc\ddl.h)(0x5B849877)
+I (..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\mcu\common\hc32l136.h)(0x5DA12377)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\inc\ddl_device.h)(0x5CD9314C)
+F (..\driver\src\gpio.c)(0x5D9FDD46)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\source\inc-I.\RTE\_pca_8bit_pwm_Release-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\output\release\gpio.o --omf_browse .\output\release\gpio.crf --depend .\output\release\gpio.d)
+I (..\driver\inc\gpio.h)(0x5B9797C9)
+I (..\driver\inc\ddl.h)(0x5B849877)
+I (..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\mcu\common\hc32l136.h)(0x5DA12377)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\inc\ddl_device.h)(0x5CD9314C)
+F (..\driver\src\lpm.c)(0x5B289C94)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\source\inc-I.\RTE\_pca_8bit_pwm_Release-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\output\release\lpm.o --omf_browse .\output\release\lpm.crf --depend .\output\release\lpm.d)
+I (..\driver\inc\lpm.h)(0x5B289C94)
+I (..\driver\inc\ddl.h)(0x5B849877)
+I (..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\mcu\common\hc32l136.h)(0x5DA12377)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\inc\ddl_device.h)(0x5CD9314C)
+F (..\driver\src\pca.c)(0x5D8DAF1F)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\source\inc-I.\RTE\_pca_8bit_pwm_Release-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\output\release\pca.o --omf_browse .\output\release\pca.crf --depend .\output\release\pca.d)
+I (..\driver\inc\pca.h)(0x5D8DAEA6)
+I (..\driver\inc\ddl.h)(0x5B849877)
+I (..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\mcu\common\hc32l136.h)(0x5DA12377)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\inc\ddl_device.h)(0x5CD9314C)
+F (..\driver\src\sysctrl.c)(0x5B289C94)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\source\inc-I.\RTE\_pca_8bit_pwm_Release-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\output\release\sysctrl.o --omf_browse .\output\release\sysctrl.crf --depend .\output\release\sysctrl.d)
+I (..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\driver\inc\ddl.h)(0x5B849877)
+I (..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\mcu\common\hc32l136.h)(0x5DA12377)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\source\inc\ddl_device.h)(0x5CD9314C)
+I (..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+F (..\driver\src\interrupts_hc32l136.c)(0x5B849878)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\source\inc-I.\RTE\_pca_8bit_pwm_Release-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\output\release\interrupts_hc32l136.o --omf_browse .\output\release\interrupts_hc32l136.crf --depend .\output\release\interrupts_hc32l136.d)
+I (..\driver\inc\ddl.h)(0x5B849877)
+I (..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\mcu\common\hc32l136.h)(0x5DA12377)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\inc\ddl_device.h)(0x5CD9314C)
+F (..\driver\src\flash.c)(0x5C45986B)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\source\inc-I.\RTE\_pca_8bit_pwm_Release-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\output\release\flash.o --omf_browse .\output\release\flash.crf --depend .\output\release\flash.d)
+I (..\driver\inc\flash.h)(0x5B289C94)
+I (..\driver\inc\ddl.h)(0x5B849877)
+I (..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\mcu\common\hc32l136.h)(0x5DA12377)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\inc\ddl_device.h)(0x5CD9314C)
+F (..\driver\src\lpt.c)(0x5BA4B271)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\source\inc-I.\RTE\_pca_8bit_pwm_Release-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\output\release\lpt.o --omf_browse .\output\release\lpt.crf --depend .\output\release\lpt.d)
+I (..\driver\inc\lpt.h)(0x5B849877)
+I (..\driver\inc\ddl.h)(0x5B849877)
+I (..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\mcu\common\hc32l136.h)(0x5DA12377)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\inc\ddl_device.h)(0x5CD9314C)
+F (..\driver\src\adc.c)(0x5B978881)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\source\inc-I.\RTE\_pca_8bit_pwm_Release-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\output\release\adc.o --omf_browse .\output\release\adc.crf --depend .\output\release\adc.d)
+I (..\driver\inc\adc.h)(0x5D8F1DAB)
+I (..\driver\inc\ddl.h)(0x5B849877)
+I (..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\mcu\common\hc32l136.h)(0x5DA12377)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\inc\ddl_device.h)(0x5CD9314C)
+F (..\driver\src\bgr.c)(0x5B289C94)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\source\inc-I.\RTE\_pca_8bit_pwm_Release-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\output\release\bgr.o --omf_browse .\output\release\bgr.crf --depend .\output\release\bgr.d)
+I (..\driver\inc\bgr.h)(0x5B289C94)
+I (..\driver\inc\ddl.h)(0x5B849877)
+I (..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\mcu\common\hc32l136.h)(0x5DA12377)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\inc\ddl_device.h)(0x5CD9314C)
+F (..\driver\src\spi.c)(0x5DA14202)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I ..\mcu\common -I ..\source -I ..\driver\inc -I ..\source\inc-I.\RTE\_pca_8bit_pwm_Release-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\output\release\spi.o --omf_browse .\output\release\spi.crf --depend .\output\release\spi.d)
+I (..\driver\inc\spi.h)(0x5B849878)
+I (..\driver\inc\ddl.h)(0x5B849877)
+I (..\mcu\common\base_types.h)(0x5C2DA6F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEB79D6)
+I (..\mcu\common\hc32l136.h)(0x5DA12377)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (..\mcu\common\system_hc32l136.h)(0x5B849879)
+I (..\driver\inc\sysctrl.h)(0x5B849878)
+I (..\driver\inc\interrupts_hc32l136.h)(0x5C8B4288)
+I (..\source\inc\ddl_device.h)(0x5CD9314C)
+F (..\readme.txt)(0x5BA3869B)()
